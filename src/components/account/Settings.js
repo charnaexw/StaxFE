@@ -9,16 +9,22 @@ function Settings() {
         <div style={{
             display: 'block', width: 400, padding: 30
         }}>
-            <h4>ReactJS Blueprint Tabs Component</h4>
+            <h1>Account</h1>
             <Tabs
                 animate={true}
                 key={"vertical"}
                 vertical={false}
             >
-                <Tab id="rx" title="Tab1" panel={
+                <Tab id="rx" title="UserName" panel={
                     <p>Sample Content 1</p>
                 } />
-                <Tab id="ng" title="Tab2" panel={
+                <Tab id="ng" title="Password" panel={
+                    <p>Sample Contet 2</p>
+                } />
+                <Tab id="ng" title="Credit Card" panel={
+                    <p>Sample Content 1</p>
+                } />
+                <Tab id="ng" title="Trips" panel={
                     <p>Sample Contet 2</p>
                 } />
             </Tabs>

@@ -27,9 +27,7 @@ function App() {
           <NewTripForm />
 				</Route>
 				<Route path="/account">
-          Your Account
 					<Account />
-          
 				</Route>
 				<Route path="/sign-in">
 					<SignIn />
